@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp">
+    <TableRow>
+        <TextView
+            android:id="@+id/lblDangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:gravity="center"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/lblTenDangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên đăng nhập"
+            />
+        <EditText
+            android:id="@+id/txtTenDangNhap"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/lblMatKhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu"
+            />
+        <EditText
+            android:id="@+id/txtMatKhau"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Chấp nhập"
+            />
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Thoát"
+            android:onClick="onBack"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/lblResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            />
+    </TableRow>
+</TableLayout>

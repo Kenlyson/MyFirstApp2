@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFirstApp2</string>
+    <string name="app_son">Son dep trai</string>
+    <string name="setting">Cai dat</string>
+</resources>
