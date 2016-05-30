@@ -9,5 +9,4 @@ public final class MyConst {
     public final static String LIST_VIEW2 = "LIST_VIEW2";
     public final static String MY_ACTIVITY = "MY_ACTIVITY";
     public final static String OPTION_MENU_CONTEXT_MENU = "OPTION_MENU_CONTEXT_MENU";
-    public final static String CUSTOM_LISTVIEW = "CUSTOM_LISTVIEW";
 }

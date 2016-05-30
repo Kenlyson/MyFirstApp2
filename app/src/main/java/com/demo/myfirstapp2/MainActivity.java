@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(new Category("List view type 2",MyConst.LIST_VIEW2, this, ListViewActivity2.class));
         arrayList.add(new Category("My activity", MyConst.MY_ACTIVITY, this, MyActivity.class));
         arrayList.add(new Category("Action menu", MyConst.OPTION_MENU_CONTEXT_MENU, this, SubMenuAndContextMenu.class));
-        arrayList.add(new Category("Custom ListView", MyConst.CUSTOM_LISTVIEW, this, CustomListViewActivity.class));
     }
 
 
