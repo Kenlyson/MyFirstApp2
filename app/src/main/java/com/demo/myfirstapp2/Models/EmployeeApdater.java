@@ -2,6 +2,7 @@ package com.demo.myfirstapp2.Models;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,6 +52,7 @@ public class EmployeeApdater extends ArrayAdapter<Employee> {
 
         final CheckBox chkitem=(CheckBox)
                 convertView.findViewById(R.id.chkitem);
+        chkitem.setChecked(emp.isDelete());
         chkitem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,7 +61,9 @@ public class EmployeeApdater extends ArrayAdapter<Employee> {
             }
         });
 
+
         return convertView;
 
     }
+
 }

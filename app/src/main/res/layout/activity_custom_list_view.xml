@@ -25,19 +25,6 @@
         android:layout_height="wrap_content">
         <TableRow android:layout_height="wrap_content" android:layout_width="match_parent">
             <TextView
-                android:text="Code :"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                />
-            <EditText
-                android:id="@+id/txtEmpId"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:hint="Nhap ma nhan vien"
-                />
-        </TableRow>
-        <TableRow android:layout_height="wrap_content" android:layout_width="match_parent">
-            <TextView
                 android:text="Name :"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
