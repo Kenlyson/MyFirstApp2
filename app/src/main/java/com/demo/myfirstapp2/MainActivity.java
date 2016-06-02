@@ -44,12 +44,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void addCategoryItem(){
-        arrayList.add(new Category( "Action bar", MyConst.ACTION_BAR, this, ActionBarClip.class));
+        arrayList.add(new Category("Action bar", MyConst.ACTION_BAR, this, ActionBarClip.class));
         arrayList.add(new Category("List view type 1", MyConst.LIST_VIEW1, this, ListViewActivity.class));
         arrayList.add(new Category("List view type 2",MyConst.LIST_VIEW2, this, ListViewActivity2.class));
         arrayList.add(new Category("My activity", MyConst.MY_ACTIVITY, this, MyActivity.class));
         arrayList.add(new Category("Action menu", MyConst.OPTION_MENU_CONTEXT_MENU, this, SubMenuAndContextMenu.class));
         arrayList.add(new Category("Custom ListView", MyConst.CUSTOM_LISTVIEW, this, CustomListViewActivity.class));
+        arrayList.add(new Category("Simple spinner", MyConst.SIMPLE_SPINNER, this, SimpleSpinnerActivity.class));
+        arrayList.add(new Category("Spinner and ListView", MyConst.SPINNER_LISTVIEW, this, SpinnerAndListViewActivity.class));
     }
 
 

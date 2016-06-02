@@ -2,6 +2,7 @@ package com.demo.myfirstapp2.Models;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 
 /**
  * Created by Kenlyson on 29-05-16.
@@ -58,6 +59,9 @@ public class Category {
 
     public void onRedirect(){
         Intent intent = new Intent(get_curentContext(), get_nextCls());
+        Bundle bundle = new Bundle();
+        bundle.putString("title", this._name);
+        intent.putExtras(bundle);
         this.get_curentContext().startActivity(intent);
     }
 

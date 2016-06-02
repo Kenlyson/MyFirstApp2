@@ -9,13 +9,15 @@ import android.view.MenuItem;
 /**
  * Created by Kenlyson on 29-05-16.
  */
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+        ;
+        setTitle(getIntent().getExtras().getString("title"));
     }
 
     @Override
@@ -32,4 +34,5 @@ public class BaseActivity extends AppCompatActivity {
         return false;
         //return super.onOptionsItemSelected(item);
     }
+
 }

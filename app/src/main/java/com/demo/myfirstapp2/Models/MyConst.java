@@ -10,4 +10,6 @@ public final class MyConst {
     public final static String MY_ACTIVITY = "MY_ACTIVITY";
     public final static String OPTION_MENU_CONTEXT_MENU = "OPTION_MENU_CONTEXT_MENU";
     public final static String CUSTOM_LISTVIEW = "CUSTOM_LISTVIEW";
+    public final static String SIMPLE_SPINNER = "SIMPLE_SPINNER";
+    public final static String SPINNER_LISTVIEW = "SPINNER_LISTVIEW";
 }
