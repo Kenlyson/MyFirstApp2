@@ -5,17 +5,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.demo.myfirstapp2.SpinnerAndListViewActivity">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Quản lý sản phẩm"
+    android:textColor="#FFF"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:background="#008000"/>
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
             <TextView android:text="Danh mục"/>
             <Spinner
-                android:id="@+id/spinnerCategory"
+                android:id="@+id/spinnerCategory_001"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -23,15 +32,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
-            <TextView android:text="Danh mục"/>
-            <EditText android:hint="Nhập mã sp" />
+            <TextView android:text="Mã sản phẩm:"/>
+            <EditText
+                android:id="@+id/txtProductId_001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nhập mã sp">
+                <requestFocus />
+                </EditText>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <TextView android:text="Tên sp"/>
-            <EditText android:hint="Nhập tên sp" />
+            <TextView android:text="Tên sp: "/>
+            <EditText
+                android:id="@+id/txtProductName_001"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:ems="10"
+                android:hint="Nhập tên sp" />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow4"
@@ -39,7 +60,7 @@
             android:layout_height="wrap_content" >
 
             <Button
-                android:id="@+id/btnAdd"
+                android:id="@+id/btnAdd_001"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
@@ -47,4 +68,18 @@
 
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008000"
+        android:gravity="center"
+        android:text="Danh sách sản phẩm theo danh mục"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        />
+    <ListView
+        android:id="@+id/lvProduct_001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

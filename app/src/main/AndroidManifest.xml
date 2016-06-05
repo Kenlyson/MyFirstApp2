@@ -25,7 +25,8 @@
         <!-- <activity android:name=".MainActivity"></activity> -->
         <activity android:name=".CustomListViewActivity" />
         <activity android:name=".SimpleSpinnerActivity" />
-        <activity android:name=".SpinnerAndListViewActivity"></activity>
+        <activity android:name=".SpinnerAndListViewActivity" />
+        <activity android:name=".AutoAndMultiAutoActivity"></activity>
     </application>
 
 </manifest>

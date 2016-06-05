@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(new Category("Custom ListView", MyConst.CUSTOM_LISTVIEW, this, CustomListViewActivity.class));
         arrayList.add(new Category("Simple spinner", MyConst.SIMPLE_SPINNER, this, SimpleSpinnerActivity.class));
         arrayList.add(new Category("Spinner and ListView", MyConst.SPINNER_LISTVIEW, this, SpinnerAndListViewActivity.class));
+        arrayList.add(new Category("Autocomplete and MultiAutoComlete", MyConst.AUTO_AUTOMULTICOMPLETE_TEXTVIEW, this, AutoAndMultiAutoActivity.class));
     }
 
 
