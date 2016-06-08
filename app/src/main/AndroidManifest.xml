@@ -26,7 +26,10 @@
         <activity android:name=".CustomListViewActivity" />
         <activity android:name=".SimpleSpinnerActivity" />
         <activity android:name=".SpinnerAndListViewActivity" />
-        <activity android:name=".AutoAndMultiAutoActivity"></activity>
+        <activity android:name=".AutoAndMultiAutoActivity" />
+        <activity android:name=".UpdateAutoCompleteAtRunTimeActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".GridViewImageActivity"></activity>
     </application>
 
 </manifest>

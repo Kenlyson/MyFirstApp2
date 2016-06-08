@@ -16,7 +16,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        ;
         setTitle(getIntent().getExtras().getString("title"));
     }
 

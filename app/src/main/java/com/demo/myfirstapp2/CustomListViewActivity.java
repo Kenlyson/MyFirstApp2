@@ -14,7 +14,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.demo.myfirstapp2.Models.Employee;
-import com.demo.myfirstapp2.Models.EmployeeApdater;
+import com.demo.myfirstapp2.Models.EmployeeAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -121,7 +121,7 @@ public class CustomListViewActivity extends BaseActivity {
     }
 
     void fillDataSource() {
-        adapter = new EmployeeApdater(this, R.layout.employee_item, listEmployees);
+        adapter = new EmployeeAdapter(this, R.layout.employee_item, listEmployees);
         lvEmp.setAdapter(adapter);
     }
     void onSelectedEmployee(int position){

@@ -13,4 +13,7 @@ public final class MyConst {
     public final static String SIMPLE_SPINNER = "SIMPLE_SPINNER";
     public final static String SPINNER_LISTVIEW = "SPINNER_LISTVIEW";
     public final static String AUTO_AUTOMULTICOMPLETE_TEXTVIEW = "AUTO_AUTOMULTICOMPLETE_TEXTVIEW";
+    public final static String UPDATE_AUTO_AUTOMULTICOMPLETE_RUNTIME = "UPDATE_AUTO_AUTOMULTICOMPLETE_RUNTIME";
+    public final static String GRIDVIEW = "GRIDVIEW";
+    public final static String GRIDVIEW_IMAGE = "GRIDVIEW_IMAGE";
 }

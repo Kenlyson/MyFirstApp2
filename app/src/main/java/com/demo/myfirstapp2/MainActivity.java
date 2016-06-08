@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(new Category("Simple spinner", MyConst.SIMPLE_SPINNER, this, SimpleSpinnerActivity.class));
         arrayList.add(new Category("Spinner and ListView", MyConst.SPINNER_LISTVIEW, this, SpinnerAndListViewActivity.class));
         arrayList.add(new Category("Autocomplete and MultiAutoComlete", MyConst.AUTO_AUTOMULTICOMPLETE_TEXTVIEW, this, AutoAndMultiAutoActivity.class));
+        arrayList.add(new Category("Update Autocomplete", MyConst.UPDATE_AUTO_AUTOMULTICOMPLETE_RUNTIME, this, UpdateAutoCompleteAtRunTimeActivity.class));
+        arrayList.add(new Category("GridView", MyConst.GRIDVIEW, this, GridViewActivity.class));
+        arrayList.add(new Category("GridViewImage", MyConst.GRIDVIEW, this, GridViewImageActivity.class));
+
     }
 
 

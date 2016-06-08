@@ -19,11 +19,11 @@ import java.util.List;
 /**
  * Created by PCPV on 31-05-16.
  */
-public class EmployeeApdater extends ArrayAdapter<Employee> {
+public class EmployeeAdapter extends ArrayAdapter<Employee> {
     Context _context;
     int _layoutId;
     List<Employee> _listEmployee;
-    public EmployeeApdater(Context context, int resource, List<Employee> objects) {
+    public EmployeeAdapter(Context context, int resource, List<Employee> objects) {
         super(context, resource, objects);
         this._context = context;
         this._layoutId = resource;
