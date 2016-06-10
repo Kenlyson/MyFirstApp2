@@ -29,7 +29,8 @@
         <activity android:name=".AutoAndMultiAutoActivity" />
         <activity android:name=".UpdateAutoCompleteAtRunTimeActivity" />
         <activity android:name=".GridViewActivity" />
-        <activity android:name=".GridViewImageActivity"></activity>
+        <activity android:name=".GridViewImageActivity" />
+        <activity android:name=".DateTimePickerActivity"></activity>
     </application>
 
 </manifest>

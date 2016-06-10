@@ -1,5 +1,6 @@
 package com.demo.myfirstapp2;
 
+import android.app.job.JobInfo;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(new Category("Update Autocomplete", MyConst.UPDATE_AUTO_AUTOMULTICOMPLETE_RUNTIME, this, UpdateAutoCompleteAtRunTimeActivity.class));
         arrayList.add(new Category("GridView", MyConst.GRIDVIEW, this, GridViewActivity.class));
         arrayList.add(new Category("GridViewImage", MyConst.GRIDVIEW, this, GridViewImageActivity.class));
+        arrayList.add(new Category("Time & date picker ", MyConst.DATE_TIME_PICKER, this, DateTimePickerActivity.class));
 
     }
 
